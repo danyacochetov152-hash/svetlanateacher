@@ -157,7 +157,7 @@ function addMobileHint() {
             aboutSection.dispatchEvent(new Event('mouseenter'));
         });
         
-        // Удаляем подсказку через 10 секунд
+        // Удаляем подсказку через 100 секунд
         setTimeout(() => {
             if (hint.parentNode && !document.querySelector('.about').hasAnimated) {
                 hint.style.opacity = '0';
@@ -166,7 +166,7 @@ function addMobileHint() {
                     if (hint.parentNode) hint.parentNode.removeChild(hint);
                 }, 500);
             }
-        }, 10000);
+        }, 100000);
     }
 }
 
@@ -368,4 +368,5 @@ document.addEventListener('DOMContentLoaded', function() {
     setupReviewsCarousel();
     
     // ... остальной код ...
+
 });
