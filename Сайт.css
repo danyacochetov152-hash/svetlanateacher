@@ -268,7 +268,7 @@ body {
 .duration1 {
     color: #6b7280;
     font-size: 0.95rem;
-    margin-top: 35px;
+    margin-top: 32px;
 }
 
 .card-price {
@@ -699,4 +699,5 @@ body {
 .reviews-button-container {
     text-align: center;
     margin-top: 30px;
+
 }
