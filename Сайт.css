@@ -34,7 +34,7 @@ body {
 }
 
 .logo {
-    font-size: 2.8rem;
+    font-size: 3.5rem;
     font-weight: 700;
     color: #ac2e49;
     letter-spacing: 2px;
@@ -732,4 +732,5 @@ body {
 .reviews-button-container {
     text-align: center;
     margin-top: 30px;
+
 }
