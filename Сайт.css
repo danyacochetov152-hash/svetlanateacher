@@ -733,7 +733,7 @@ body {
 
 
 .section-title {
-    font-family: 'Roboto', 'Arial', sans-serif; /* Шрифт для телефонов */
+    font-family: Arial, sans-serif; /* Шрифт для телефонов */
     font-size: 1.8rem;
     font-weight: 700;
     color: #333;
@@ -749,4 +749,5 @@ body {
         letter-spacing: 1px;
         color: #9c2d2d;
     }
+
 }
