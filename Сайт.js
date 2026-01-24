@@ -45,6 +45,11 @@ function setupCounterHoverAnimation() {
             aboutSection.style.boxShadow = '';
         }, 1000);
     });
+    aboutSection.addEventListener('click', function() {
+        if (!hasAnimated) {
+            aboutSection.dispatchEvent(new Event('mouseenter'));
+        }
+    });
     
 }
 
@@ -250,4 +255,5 @@ document.addEventListener('DOMContentLoaded', function() {
     setupReviewsCarousel();
     
     // ... остальной код ...
+
 });
