@@ -34,7 +34,7 @@ body {
 }
 
 .logo {
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 700;
     color: #ac2e49;
     letter-spacing: 2px;
@@ -42,7 +42,7 @@ body {
 }
 
 .subtitle {
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: #666;
     margin-bottom: 5px;
 }
@@ -734,7 +734,7 @@ body {
 
 .section-title {
     font-family: Georgia, serif; /* Шрифт для телефонов */
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
     color: #333;
     text-align: center;
@@ -751,5 +751,6 @@ body {
     }
 
 }
+
 
 
