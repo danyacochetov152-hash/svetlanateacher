@@ -343,7 +343,7 @@ body {
 }
 
 .stat-label {
-    font-size: 0.95rem;
+    font-size: 1.1rem;
     color: #9c2d2d;
     text-align: center;
     max-width: 150px;
@@ -699,4 +699,5 @@ body {
 .reviews-button-container {
     text-align: center;
     margin-top: 30px;
+
 }
