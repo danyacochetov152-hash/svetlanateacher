@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minenkoteacher</title>
+    <link rel="stylesheet" href="Сайт.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.jpg" type="image/jpg">
+</head>
+<body>
+    <div class="container">
+        <!-- Хедер с заголовком и контактами -->
+        <header class="header">
+            <div class="section-title">
+                <h1 class="logo">Миненко Светлана</h1>
+                <p class="subtitle">рептитор английского языка</p>
+                <p class="contact">@minenko_sv</p>
+            </div>
+            
+            <div class="profile-section">
+                <div class="profile-img">
+                    <img src="teacher-photo.jpg" alt="Миненко Светлана - репетитор английского языка">
+                </div>
+
+            </div>
+        </header>
+
+        <!-- Как проходят занятия -->
+        <section class="section how-it-works">
+            <h2 class="section-title">КАК ПРОХОДЯТ НАШИ ЗАНЯТИЯ</h2>
+            <p class="section-text">Занятия проводятся на интерактивной доске Miro, а также в Zoom, Discord, Skype, Telegram</p>
+            <a href="#contact-form" class="btn btn-secondary">Записаться на урок</a>
+        </section>
+
+        <!-- Отзывы -->
+ <!-- Отзывы -->
+<section class="section reviews">
+    <h2 class="section-title">ОТЗЫВЫ</h2>
+    
+    <div class="reviews-container">
+        <div class="reviews-scroll-wrapper">
+            <div class="reviews-track" id="reviews-track">
+                <!-- Отзыв 1 -->
+                <div class="review-card">
+                    <div class="review-text">
+                        <p>Екатерина, добрый день!</p>
+                        <p>Хочу выразить вам благодарность, после ваших занятий я смог сдать вступительный экзамен и поступить туда, куда очень хотелось.</p>
+                        <p>Ваши занятия были очень интересными и насыщенными.</p>
+                    </div>
+                    <div class="review-author">- Алексей, студент</div>
+                    <div class="review-date">15 марта 2023</div>
+                </div>
+                
+                <!-- Отзыв 2 -->
+                <div class="review-card">
+                    <div class="review-text">
+                        <p>Занимаюсь с Екатериной уже 6 месяцев!</p>
+                        <p>Начала с нуля, сейчас уже могу свободно общаться на бытовые темы. Очень понятно объясняет грамматику, всегда находит подход.</p>
+                        <p>Рекомендую всем, кто хочет выучить английский!</p>
+                    </div>
+                    <div class="review-author">- Марина, бухгалтер</div>
+                    <div class="review-date">3 апреля 2023</div>
+                </div>
+                
+                <!-- Отзыв 3 -->
+                <div class="review-card">
+                    <div class="review-text">
+                        <p>Готовился к IELTS с Екатериной.</p>
+                        <p>Результат - 7.5 баллов! Смог поступить в зарубежный университет. Особенно помогли занятия по письменной части и speaking.</p>
+                        <p>Спасибо за профессионализм!</p>
+                    </div>
+                    <div class="review-author">- Дмитрий, студент</div>
+                    <div class="review-date">28 февраля 2023</div>
+                </div>
+                
+                <!-- Отзыв 4 -->
+                <div class="review-card">
+                    <div class="review-text">
+                        <p>Занимаемся всей семьей!</p>
+                        <p>Мне нужен английский для работы, детям - для школы. Екатерина смогла подобрать программу для каждого из нас.</p>
+                        <p>Удобный график, онлайн формат - все супер!</p>
+                    </div>
+                    <div class="review-author">- Ольга, менеджер</div>
+                    <div class="review-date">10 мая 2023</div>
+                </div>
+                
+                <!-- Отзыв 5 -->
+                <div class="review-card">
+                    <div class="review-text">
+                        <p>После 3 месяцев занятий смогла пройти собеседование на английском!</p>
+                        <p>Получила работу в международной компании. Особенно полезными были разговорные занятия и подготовка к интервью.</p>
+                        <p>Буду продолжать занятия для совершенствования!</p>
+                    </div>
+                    <div class="review-author">- Анна, программист</div>
+                    <div class="review-date">20 января 2023</div>
+                </div>
+                
+                <!-- Отзыв 6 -->
+                <div class="review-card">
+                    <div class="review-text">
+                        <p>Ребенок (12 лет) занимается с большим удовольствием!</p>
+                        <p>Уроки проходят в игровой форме, много интерактива. За полгода сын начал свободно говорить на простые темы.</p>
+                        <p>Оценки в школе улучшились с 3 до 5!</p>
+                    </div>
+                    <div class="review-author">- Ирина, мама ученика</div>
+                    <div class="review-date">5 июня 2023</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Кнопки навигации -->
+        <button class="scroll-btn scroll-btn-left" id="scroll-left">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="scroll-btn scroll-btn-right" id="scroll-right">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+    <div class="reviews-button-container">
+        <a href="#contact-form" class="btn btn-secondary">Записаться на урок</a>
+    </div>
+</section>
+
+        <!-- Занятия -->
+        <section class="section lessons">
+            <h2 class="section-title">ЗАНЯТИЯ</h2>
+            
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3>ИНДИВИДУАЛЬНОЕ ЗАНЯТИЕ</h3>
+                        <p class="duration">(60 минут)</p>
+                    </div>
+                    <div class="card-price">
+                        <span class="price">1100 ₽</span>
+                    </div>
+                    <div class="card-features">
+                        <p><i class="fas fa-check"></i> Индивидуальный подход</p>
+                        <p><i class="fas fa-check"></i> Все материалы включены</p>
+                        <p><i class="fas fa-check"></i> Домашние задания</p>
+                    </div>
+                    <a href="#contact-form" class="btn btn-card">Записаться на урок</a>
+                </div>
+                
+                <div class="pricing-card highlight">
+                    <div class="card-header">
+                        <h3>ПРОБНОЕ ЗАНЯТИЕ</h3>
+                        <p class="duration1">(30 минут)</p>
+                    </div>
+                    <div class="card-price">
+                        <span class="price">БЕСПЛАТНО</span>
+                    </div>
+                    <div class="card-features">
+                        <p><i class="fas fa-check"></i> Знакомство с преподавателем</p>
+                        <p><i class="fas fa-check"></i> Определение уровня</p>
+                        <p><i class="fas fa-check"></i> План обучения</p>
+                    </div>
+                    <a href="#contact-form" class="btn btn-card">Записаться на урок</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3>ИНДИВИДУАЛЬНОЕ ЗАНЯТИЕ</h3>
+                        <p class="duration">(45 минут)</p>
+                    </div>
+                    <div class="card-price">
+                        <span class="price">900 ₽</span>
+                    </div>
+                    <div class="card-features">
+                        <p><i class="fas fa-check"></i> Индивидуальный подход</p>
+                        <p><i class="fas fa-check"></i> Все материалы включены</p>
+                        <p><i class="fas fa-check"></i> Домашние задания</p>
+                    </div>
+                    <a href="#contact-form" class="btn btn-card">Записаться на урок</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- О себе -->
+        <section class="section about">
+            <h2 class="section-title">ОБО МНЕ</h2>
+            <p class="about-text">
+                Хотите изучить английский язык быстро и эффективно? Запишитесь на урок — я опытный репетитор английского языка с многолетним опытом обучения.
+            </p>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="lessons-count">0</span>
+                    <span class="stat-label">ПРОВЕДЕННЫХ ЗАНЯТИЙ</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="students-count">0</span>
+                    <span class="stat-label">УЧЕНИКОВ</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="homeworks-count">0</span>
+                    <span class="stat-label">ДОМАШНИХ ЗАДАНИЙ</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контактная форма -->
+        <section class="section contact-form" id="contact-form">
+            <h2 class="section-title">СВЯЗАТЬСЯ СО МНОЙ</h2>
+            <div class="contact-methods">
+                <a href="https://t.me/sv_life07" class="contact-link telegram" target="_blank">
+                    <i class="fab fa-telegram"></i>
+                    <span>TELEGRAM</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Футер -->
+        <footer class="footer">
+            <p>© 2026 Миненко Светлана. Репетитор английского языка.</p>
+            <p>Все права защищены.</p>
+        </footer>
+    </div>
+
+    <!-- Скрипты -->
+    <script src="Сайт.js"></script>
+</body>
+</html>
