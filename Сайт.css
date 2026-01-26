@@ -893,7 +893,7 @@ body {
 
 .section-title {
    font-family: 'Papyrus', fantasy; /* Шрифт для телефонов */
-    font-size: 1.8rem;
+    font-size: 4rem;
     font-weight: 700;
     color: #9c2d2d;
     text-align: center;
@@ -959,4 +959,5 @@ body {
     .swipe-hint {
         display: none;
     }
+
 }
