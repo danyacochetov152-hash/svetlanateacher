@@ -18,11 +18,6 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
-.container1 {
-    max-width: 1000px;
-    margin: 0 auto;
-
-}
 
 /* Хедер */
 .header {
@@ -73,12 +68,12 @@ body {
 /* Мобильная версия */
 @media (max-width: 768px) {
   .hero-image {
-    height: 70vh;
+    height: 50vh;
     object-fit: cover;
   }
   
   .hero-section {
-    margin: 0 calc(-50vw + 50%); /* расширяем за пределы контейнера */
+    margin: 0 calc(-50vw ); /* расширяем за пределы контейнера */
     width: 100vw;
   }
 }
@@ -1002,5 +997,6 @@ body {
         display: none;
     }
 }
+
 
 
