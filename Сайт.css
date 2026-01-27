@@ -74,7 +74,7 @@ body {
   }
   
   .hero-section {
-    margin: 0 calc(-50vw ); /* расширяем за пределы контейнера */
+    margin: 0 calc(-50vw - 20% ); /* расширяем за пределы контейнера */
     width: 100vw;
   }
 }
@@ -998,5 +998,6 @@ body {
         display: none;
     }
 }
+
 
 
