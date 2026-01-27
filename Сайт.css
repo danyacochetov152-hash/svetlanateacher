@@ -77,7 +77,7 @@ body {
   .hero-section {
     margin: 0 calc(-50vw - 20% ); /* расширяем за пределы контейнера */
     width: 75vw;
-       margin-bottom: -30px;
+       margin-bottom: -25px;
   }
 }
 .profile-section {
@@ -1000,6 +1000,7 @@ body {
         display: none;
     }
 }
+
 
 
 
