@@ -59,6 +59,7 @@ body {
 
 .hero-section {
   margin: 0 -15px; /* компенсируем отступы контейнера */
+    margin-bottom: -30px;
 }
 
 .hero-image {
@@ -998,6 +999,7 @@ body {
         display: none;
     }
 }
+
 
 
 
