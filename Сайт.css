@@ -68,7 +68,7 @@ body {
 /* Мобильная версия */
 @media (max-width: 768px) {
   .hero-image {
-    height: 50vh;
+    height: 70vh;
     object-fit: cover;
   }
   
@@ -997,6 +997,7 @@ body {
         display: none;
     }
 }
+
 
 
 
