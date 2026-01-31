@@ -845,13 +845,13 @@ body {
         font-size: 3rem;
     }
     .subtitle {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #666;
     margin-bottom: 10px;
 }
 
 .contact {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #1a56db;
     font-weight: 500;
     margin-bottom:-100px;
@@ -1099,5 +1099,6 @@ body {
         display: none;
     }
 }
+
 
 
