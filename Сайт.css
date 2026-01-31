@@ -843,6 +843,7 @@ body {
 @media (max-width: 480px) {
     .logo {
         font-size: 3rem;
+        margin-bottom: 10px;
     }
     .subtitle {
     font-size: 1.2rem;
@@ -1099,6 +1100,7 @@ body {
         display: none;
     }
 }
+
 
 
 
