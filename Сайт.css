@@ -81,7 +81,7 @@ body {
      margin-bottom: -25px;
   }
 .logo {
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: 900;
     color: #ac2e49;
     letter-spacing: 2px;
@@ -1106,5 +1106,6 @@ body {
         display: none;
     }
 }
+
 
 
