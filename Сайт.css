@@ -23,7 +23,7 @@ body {
 
 /* Хедер */
 .header {
-    background-color: #FFFEE4;
+    background-color: #f4f1ec;
     border-radius: 15px;
     padding: 30px;
     margin-bottom: 25px;
@@ -1218,3 +1218,4 @@ body {
         font-size: 0.9rem;
     }
 }
+
